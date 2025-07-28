@@ -5,24 +5,36 @@
     "url": "/learning-notes/articles/",
     "relUrl": "/articles/"
   },"1": {
-    "doc": "Books",
-    "title": "Books",
+    "doc": "Finance",
+    "title": "Finance",
     "content": " ",
-    "url": "/learning-notes/books/",
-    "relUrl": "/books/"
+    "url": "/learning-notes/finance/",
+    "relUrl": "/finance/"
   },"2": {
+    "doc": "My First Article",
+    "title": "My First Article",
+    "content": "This is a test article. ",
+    "url": "/learning-notes/articles/first-article/",
+    "relUrl": "/articles/first-article/"
+  },"3": {
     "doc": "Learning Notes",
     "title": "Learning Notes",
-    "content": "Here you can explore the notes I took on books I read, talks I watch, articles I study, and papers I love – recalling them right afterward by creating short summaries – helps a lot in my learning process. Here you’ll find some of those little pieces. | Articles | Books | Talks | Papers | . ",
+    "content": "Here you can explore the notes I took on posts I read, talks I watch, articles I study, and papers I love – recalling them right afterward by creating short summaries – helps a lot in my learning process. Here you’ll find some of those little pieces. | Articles | Talks | Posts | Finance | Papers | . ",
     "url": "/learning-notes/",
     "relUrl": "/"
-  },"3": {
+  },"4": {
     "doc": "Papers",
     "title": "Papers",
     "content": " ",
     "url": "/learning-notes/papers/",
     "relUrl": "/papers/"
-  },"4": {
+  },"5": {
+    "doc": "Posts",
+    "title": "Posts",
+    "content": " ",
+    "url": "/learning-notes/posts/",
+    "relUrl": "/posts/"
+  },"6": {
     "doc": "Talks",
     "title": "Talks",
     "content": " ",
