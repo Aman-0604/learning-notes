@@ -1,38 +1,140 @@
 {"0": {
+    "doc": "AI Agents",
+    "title": "AI Agents",
+    "content": "AI Agentssss…. the buzzword nowadays. Chekout Agno, a python framework for building multi-agent systems with shared memory, knowledge and reasoning. ",
+    "url": "/learning-notes/articles/ai-agents/",
+    "relUrl": "/articles/ai-agents/"
+  },"1": {
+    "doc": "AI Agents",
+    "title": "Levels of Engineering:",
+    "content": ". | Level 1: Agents with tools and instructions example. | Level 2: Agents with knowledge and storage example. | Level 3: Agents with memory and reasoning example. | Level 4: Agent Teams that can reason and collaborate example. | Level 5: Agentic Workflows with state and determinism example. | . ",
+    "url": "/learning-notes/articles/ai-agents/#levels-of-engineering",
+    "relUrl": "/articles/ai-agents/#levels-of-engineering"
+  },"2": {
+    "doc": "Answers Framework",
+    "title": "Interview Answers Framework",
+    "content": "Jotting down some important frameworks to answer interview questions. ",
+    "url": "/learning-notes/posts/answers-framework/#interview-answers-framework",
+    "relUrl": "/posts/answers-framework/#interview-answers-framework"
+  },"3": {
+    "doc": "Answers Framework",
+    "title": "For Introduction:",
+    "content": "Most students think “Tell me about yourself” is about their life story. It’s not. What 95% of candidates do wrong: They repeat their resume word-for-word. “Hi, I’m ABC. I did BTech from XYZ college. I know Java, Python, C++. I made a blockchain project.” . Interviewer’s reaction: “I already read your resume. What’s new here?” . What actually works: The PARL Framework I developed: . | Personal Background (relevant only) | Academic Achievements (specific, not generic) | Relevant Skills &amp; Projects (with real impact) | Long-term Vision (aligned with company goals) | . Example of a winning introduction: . “I’m passionate about solving complex problems, which drew me to computer science. At XYZ Institute, I ranked top 5% and specialized in ML algorithms. Using MERN stack, I built a resource-sharing platform with 500+ active users, implementing JWT authentication and real-time notifications. I’m excited about cloud architecture and see this role as perfect for contributing to your microservices work.” . ",
+    "url": "/learning-notes/posts/answers-framework/#for-introduction",
+    "relUrl": "/posts/answers-framework/#for-introduction"
+  },"4": {
+    "doc": "Answers Framework",
+    "title": "For HR Round:",
+    "content": "Answer every question in STAR Framework, i.e first layout the situation then the tasks you performed, then the actions you took and finally the result you got. Try to provide real life examples. Sample Interview Question: Can you describe a situation where you faced a significant challenge during the development of DeCyber(project name) and how you resolved it? . Situation: During the development of DeCyber, we encountered a challenge related to real-time data interactions and synchronization between players. The multiplayer nature of the game required seamless communication and instant updates to ensure a smooth gaming experience. Task: My task was to implement real-time data interactions using web sockets to ensure that all players could see the changes in the game state simultaneously. Action: To tackle this challenge, I decided to integrate Socket.io, a widely-used library for real-time communication in web applications. I set up a Socket.io server on the Node.js backend and established a connection between the server and the clients. This allowed us to broadcast updates whenever a player captured a country or when a new code was generated. Result: By using Socket.io, I successfully implemented real-time updates, ensuring that all players received immediate feedback on the game’s progress. This enhanced the overall gaming experience and created a sense of engagement and competition among players. ",
+    "url": "/learning-notes/posts/answers-framework/#for-hr-round",
+    "relUrl": "/posts/answers-framework/#for-hr-round"
+  },"5": {
+    "doc": "Answers Framework",
+    "title": "For Coding Round:",
+    "content": "Coming… . ",
+    "url": "/learning-notes/posts/answers-framework/#for-coding-round",
+    "relUrl": "/posts/answers-framework/#for-coding-round"
+  },"6": {
+    "doc": "Answers Framework",
+    "title": "For System Design Round:",
+    "content": "Coming… . ",
+    "url": "/learning-notes/posts/answers-framework/#for-system-design-round",
+    "relUrl": "/posts/answers-framework/#for-system-design-round"
+  },"7": {
+    "doc": "Answers Framework",
+    "title": "Answers Framework",
+    "content": " ",
+    "url": "/learning-notes/posts/answers-framework/",
+    "relUrl": "/posts/answers-framework/"
+  },"8": {
     "doc": "Articles",
     "title": "Articles",
     "content": " ",
     "url": "/learning-notes/articles/",
     "relUrl": "/articles/"
-  },"1": {
+  },"9": {
     "doc": "Finance",
     "title": "Finance",
     "content": " ",
     "url": "/learning-notes/finance/",
     "relUrl": "/finance/"
-  },"2": {
+  },"10": {
     "doc": "Learning Notes",
     "title": "Learning Notes",
     "content": "Here you can explore the notes I took on posts I read, talks I watch, articles I study, and papers I love – recalling them right afterward by creating short summaries – helps a lot in my learning process. Here you’ll find some of those little pieces. | Articles | Talks | Posts | Finance | Papers | . ",
     "url": "/learning-notes/",
     "relUrl": "/"
-  },"3": {
+  },"11": {
+    "doc": "Lighthouse Scores",
+    "title": "Lighthouse Scores",
+    "content": ". | Post | . ",
+    "url": "/learning-notes/articles/lighthouse-scores/",
+    "relUrl": "/articles/lighthouse-scores/"
+  },"12": {
     "doc": "Papers",
     "title": "Papers",
     "content": " ",
     "url": "/learning-notes/papers/",
     "relUrl": "/papers/"
-  },"4": {
+  },"13": {
     "doc": "Posts",
     "title": "Posts",
     "content": " ",
     "url": "/learning-notes/posts/",
     "relUrl": "/posts/"
-  },"5": {
+  },"14": {
+    "doc": "Projects",
+    "title": "Projects",
+    "content": "Ok, so here we are with the most important post of the century (for freshers obviously :)) . Projects is the most important section in a freshers resume. This section doesn’t just introduce you to the recruiter but proves your worth to them. Nike says Just Do It, I say Just Show It . Here are some project ideas which I feel are cool and worth investing time on: . Simple . | TODO App | 2048 Game (Fun yeah!) | Tic Tac Toe Game | . Fundamental . | API Hub (Best Experience) | Bank Operations | Sorting Algorithm Visualiser | CPU Scheduler (OS Concepts unlocked) | Chess (OOPS Concepts unlocked) | . AI Based (use free Gemini API) . | Finance Assistant | Movie Recommendation | Resume Manager | Resume Scorer (ATS Score) | . AI Agents (Agno is a lifesaver) . | Wealth Manager | ITR Filer | Web Scraper | Job Searcher (and notify you every day) | Dummy Dataset Generator (very very helpful) | . Miscellaneous . | LLM | Overleaf MCP Server | Something CI/CD Based | Desktop App (maybe using electron) | Chrome Extensions | Own Web Browser | . Fun Fact: API Revolution came earlier and now it’s time for MCP Revolution . ",
+    "url": "/learning-notes/posts/projects/",
+    "relUrl": "/posts/projects/"
+  },"15": {
+    "doc": "Resume",
+    "title": "Resume Guide",
+    "content": "Resume… no introduction needed. So let’s get started. Keep one thing in mind, we make resumes for machines not for humans :) . ",
+    "url": "/learning-notes/posts/resume/#resume-guide",
+    "relUrl": "/posts/resume/#resume-guide"
+  },"16": {
+    "doc": "Resume",
+    "title": "Keypoints to remember",
+    "content": ". | Never make resume on Canva. It’s not ATS friendly. Always use word or overleaf(or any LaTex editor). | Try to include numbers in every line. It increases ATS score. | Bullet points should be small and plenty enough to not make your resume short or lengthy. | Always start bullet points with strong action verbs. | Highlight important points. | No spelling mistakes please. | Always provide links, it acts as a proof. | It should be of 1 page for freshers, and of 2 pages for experienced. | . ",
+    "url": "/learning-notes/posts/resume/#keypoints-to-remember",
+    "relUrl": "/posts/resume/#keypoints-to-remember"
+  },"17": {
+    "doc": "Resume",
+    "title": "Where to make one ?",
+    "content": "Overleaf is your friend in this case. There are plenty of templates available over there. But my favourite ones are: . | Template 1 | Template 2 | . ",
+    "url": "/learning-notes/posts/resume/#where-to-make-one-",
+    "relUrl": "/posts/resume/#where-to-make-one-"
+  },"18": {
+    "doc": "Resume",
+    "title": "Some action verbs for reference :",
+    "content": ". Resume Worded - Here you can check your ATS Score. Site . ",
+    "url": "/learning-notes/posts/resume/#some-action-verbs-for-reference-",
+    "relUrl": "/posts/resume/#some-action-verbs-for-reference-"
+  },"19": {
+    "doc": "Resume",
+    "title": "Resume",
+    "content": " ",
+    "url": "/learning-notes/posts/resume/",
+    "relUrl": "/posts/resume/"
+  },"20": {
     "doc": "Talks",
     "title": "Talks",
     "content": " ",
     "url": "/learning-notes/talks/",
     "relUrl": "/talks/"
+  },"21": {
+    "doc": "Tradeoff",
+    "title": "Tradeoffs",
+    "content": "Optimization is a zero-sum game. When designing systems or writing code, you’re always making trade-offs. You’re balancing space vs. time complexity in algorithms, read vs. write latency when configuring databases, CPU vs. memory usage in runtime environments, and so on. If you think something is a pure win-win, look deeper because you are probably trading off something - performance, simplicity, scalability, or maintainability. This might look tricky at first, but over time, you will become good at spotting these and making good design and implementation decisions. Engineering is all about choosing the right ones for the problem at hand. Remember, you get some, you lose some. Kuch paane ke liye kuch khona padta hai . ",
+    "url": "/learning-notes/posts/tradeoffs/#tradeoffs",
+    "relUrl": "/posts/tradeoffs/#tradeoffs"
+  },"22": {
+    "doc": "Tradeoff",
+    "title": "Tradeoff",
+    "content": " ",
+    "url": "/learning-notes/posts/tradeoffs/",
+    "relUrl": "/posts/tradeoffs/"
   }
 }
