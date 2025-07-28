@@ -1,44 +1,92 @@
 {"0": {
+    "doc": "AI Agents",
+    "title": "AI Agents",
+    "content": "This is a test article. ",
+    "url": "/learning-notes/articles/ai-agents/",
+    "relUrl": "/articles/ai-agents/"
+  },"1": {
+    "doc": "Answers Framework",
+    "title": "Interview Answers Framework",
+    "content": ". | STAR | PARL | DSA | . ",
+    "url": "/learning-notes/posts/answers-framework/#interview-answers-framework",
+    "relUrl": "/posts/answers-framework/#interview-answers-framework"
+  },"2": {
+    "doc": "Answers Framework",
+    "title": "Answers Framework",
+    "content": " ",
+    "url": "/learning-notes/posts/answers-framework/",
+    "relUrl": "/posts/answers-framework/"
+  },"3": {
     "doc": "Articles",
     "title": "Articles",
     "content": " ",
     "url": "/learning-notes/articles/",
     "relUrl": "/articles/"
-  },"1": {
+  },"4": {
+    "doc": "CAT",
+    "title": "CAT",
+    "content": " ",
+    "url": "/learning-notes/articles/cat/",
+    "relUrl": "/articles/cat/"
+  },"5": {
     "doc": "Finance",
     "title": "Finance",
     "content": " ",
     "url": "/learning-notes/finance/",
     "relUrl": "/finance/"
-  },"2": {
-    "doc": "My First Article",
-    "title": "My First Article",
-    "content": "This is a test article. ",
-    "url": "/learning-notes/articles/first-article/",
-    "relUrl": "/articles/first-article/"
-  },"3": {
+  },"6": {
     "doc": "Learning Notes",
     "title": "Learning Notes",
     "content": "Here you can explore the notes I took on posts I read, talks I watch, articles I study, and papers I love – recalling them right afterward by creating short summaries – helps a lot in my learning process. Here you’ll find some of those little pieces. | Articles | Talks | Posts | Finance | Papers | . ",
     "url": "/learning-notes/",
     "relUrl": "/"
-  },"4": {
+  },"7": {
+    "doc": "Lighthouse Scores",
+    "title": "Lighthouse Scores",
+    "content": ". | Post | . ",
+    "url": "/learning-notes/articles/lighthouse-scores/",
+    "relUrl": "/articles/lighthouse-scores/"
+  },"8": {
     "doc": "Papers",
     "title": "Papers",
     "content": " ",
     "url": "/learning-notes/papers/",
     "relUrl": "/papers/"
-  },"5": {
+  },"9": {
     "doc": "Posts",
     "title": "Posts",
     "content": " ",
     "url": "/learning-notes/posts/",
     "relUrl": "/posts/"
-  },"6": {
+  },"10": {
+    "doc": "Projects",
+    "title": "Projects",
+    "content": "Ok, so here we are with the most important post of the century (for freshers obviously :)) . Projects is the most important section in a freshers resume. This section doesn’t just introduce you to the recruiter but proves your worth to them. Nike says Just Do It, I say Just Show It . Here are some project ideas which I feel are cool and worth investing time on: . Simple . | TODO App | 2048 Game (Fun yeah!) | Tic Tac Toe Game | . Fundamental . | API Hub (Best Experience) | Bank Operations | Sorting Algorithm Visualiser | CPU Scheduler (OS Concepts unlocked) | Chess (OOPS Concepts unlocked) | . AI Based (use free Gemini API) . | Finance Assistant | Movie Recommendation | Resume Manager | Resume Scorer (ATS Score) | . AI Agents (Agno is a lifesaver) . | Wealth Manager | ITR Filer | Web Scraper | Job Searcher (and notify you every day) | Dummy Dataset Generator (very very helpful) | . Miscellaneous . | LLM | Overleaf MCP Server | Something CI/CD Based | Desktop App (maybe using electron) | Chrome Extensions | Own Web Browser | . Fun Fact: API Revolution came earlier and now it’s time for MCP Revolution . ",
+    "url": "/learning-notes/posts/projects/",
+    "relUrl": "/posts/projects/"
+  },"11": {
+    "doc": "Resume",
+    "title": "Resume Guide",
+    "content": " ",
+    "url": "/learning-notes/posts/resume/#resume-guide",
+    "relUrl": "/posts/resume/#resume-guide"
+  },"12": {
+    "doc": "Resume",
+    "title": "Resume",
+    "content": " ",
+    "url": "/learning-notes/posts/resume/",
+    "relUrl": "/posts/resume/"
+  },"13": {
     "doc": "Talks",
     "title": "Talks",
     "content": " ",
     "url": "/learning-notes/talks/",
     "relUrl": "/talks/"
+  },"14": {
+    "doc": "Tradeoff",
+    "title": "Tradeoff",
+    "content": ". | Tradeoff post | . ",
+    "url": "/learning-notes/posts/tradeoffs/",
+    "relUrl": "/posts/tradeoffs/"
   }
 }
