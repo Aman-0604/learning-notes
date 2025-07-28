@@ -48,14 +48,19 @@ defaults:
       parent: Articles
       nav_exclude: true
   - scope:
-      path: "books"
-    values:
-      parent: Books
-      nav_exclude: true
-  - scope:
       path: "talks"
     values:
       parent: Talks
+      nav_exclude: true
+  - scope:
+      path: "posts"
+    values:
+      parent: Posts
+      nav_exclude: true
+  - scope:
+      path: "finance"
+    values:
+      parent: Finance
       nav_exclude: true
   - scope:
       path: "papers"
