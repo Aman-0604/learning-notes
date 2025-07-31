@@ -65,9 +65,9 @@
     "url": "/learning-notes/",
     "relUrl": "/"
   },"11": {
-    "doc": "Lighthouse Scores",
-    "title": "Lighthouse Scores",
-    "content": ". | Post | . ",
+    "doc": "Performance Optimization",
+    "title": "Performance Optimization",
+    "content": "We can improve the lighthouse score of the homepage by leveraging these techniques: . | . ",
     "url": "/learning-notes/articles/lighthouse-scores/",
     "relUrl": "/articles/lighthouse-scores/"
   },"12": {
@@ -119,18 +119,42 @@
     "url": "/learning-notes/posts/resume/",
     "relUrl": "/posts/resume/"
   },"20": {
+    "doc": "SSG vs SSR",
+    "title": "SSG vs SSR",
+    "content": "Frameworks like Next.js or Astro allow: . | SSG(Static Site Generation) -&gt; looks dynamic at built time but is actually static | SSR(Server Side Rendering) -&gt; runs backend on every request | . With SSG, you can build dynamic-looking websites that can be hosted on static platforms like Github Pages or Vercel. Dynamic Behaviour can be simulated by: . | Fetching data from public API’s using JS in the browser | Building the site using SSG tools like Next.js/Eleventy and deploying the prebuilt version. | . ",
+    "url": "/learning-notes/articles/ssg-vs-ssr/",
+    "relUrl": "/articles/ssg-vs-ssr/"
+  },"21": {
+    "doc": "Static Vs Dynamic Website",
+    "title": "Static Vs Dynamic Website",
+    "content": "Website has its types too! . Static - “Jo Change na ho” and Dynamic - “Jo change ho”. Simple! . ",
+    "url": "/learning-notes/articles/static-vs-dynamic/",
+    "relUrl": "/articles/static-vs-dynamic/"
+  },"22": {
+    "doc": "Static Vs Dynamic Website",
+    "title": "1. Static Website",
+    "content": ". | A static website is made up of fixed resources i.e fixed html, css and js files. | No backend code is run whenever a user visits. Content changes only when you redeploy after changing files. | It can be hosted on Github Pages, Netlify, Vercel(with SSG), etc. | It is fast, secure (no server logic required), and low cost. | Eg. Portfolio, blog, landing page | . ",
+    "url": "/learning-notes/articles/static-vs-dynamic/#1-static-website",
+    "relUrl": "/articles/static-vs-dynamic/#1-static-website"
+  },"23": {
+    "doc": "Static Vs Dynamic Website",
+    "title": "2. Dynamic Website",
+    "content": ". | A dynamic website generates content on the fly based on user input, authentication, database content, etc. Hence, different users may see different data. | HTML is generated per request, often using templates. (Eg. when you build website using React Js) | It needs a server and database. | Slower than static (due to runtime processing). | Eg. Facebook, Twitter, Dashboards | . ",
+    "url": "/learning-notes/articles/static-vs-dynamic/#2-dynamic-website",
+    "relUrl": "/articles/static-vs-dynamic/#2-dynamic-website"
+  },"24": {
     "doc": "Talks",
     "title": "Talks",
     "content": " ",
     "url": "/learning-notes/talks/",
     "relUrl": "/talks/"
-  },"21": {
+  },"25": {
     "doc": "Tradeoff",
     "title": "Tradeoffs",
     "content": "Optimization is a zero-sum game. When designing systems or writing code, you’re always making trade-offs. You’re balancing space vs. time complexity in algorithms, read vs. write latency when configuring databases, CPU vs. memory usage in runtime environments, and so on. If you think something is a pure win-win, look deeper because you are probably trading off something - performance, simplicity, scalability, or maintainability. This might look tricky at first, but over time, you will become good at spotting these and making good design and implementation decisions. Engineering is all about choosing the right ones for the problem at hand. Remember, you get some, you lose some. Kuch paane ke liye kuch khona padta hai . ",
     "url": "/learning-notes/posts/tradeoffs/#tradeoffs",
     "relUrl": "/posts/tradeoffs/#tradeoffs"
-  },"22": {
+  },"26": {
     "doc": "Tradeoff",
     "title": "Tradeoff",
     "content": " ",
