@@ -51,5 +51,6 @@ Here are some **project ideas** which I feel are cool and worth investing time o
 - Desktop App (maybe using electron)
 - Chrome Extensions
 - Own Web Browser
+- [System Design, DSA, Microservices Related](https://www.linkedin.com/posts/tauseeffayyaz_systemdesign-dsa-projects-activity-7284801531911004160-O8cE?utm_source=share&utm_medium=member_desktop&rcm=ACoAADlE-0sBYc5lawGP2e5LfCS29awVuufoDVk)
 
 > Fun Fact: API Revolution came earlier and now it's time for MCP Revolution

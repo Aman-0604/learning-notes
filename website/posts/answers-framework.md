@@ -40,8 +40,18 @@ Answer every question in STAR Framework, i.e first layout the situation then the
 
 **Result**: By using Socket.io, I successfully implemented real-time updates, ensuring that all players received immediate feedback on the game's progress. This enhanced the overall gaming experience and created a sense of engagement and competition among players.
 
+> In the last you can also share your learnings. (Optional)
+
 ## For Coding Round:
-Coming...
+
+Steps:
+1. Read question loud
+2. Explain 1 example loud
+3. Can you tell me what to return if this edge case occurs? (or any other question)
+4. Brute force (explain T.C and S.C)
+5. More optimal (explain T.C and S.C)
+6. Most optimal (explain T.C and S.C)
+7. Code only the most optimal solution
 
 ## For System Design Round: 
 Coming...
