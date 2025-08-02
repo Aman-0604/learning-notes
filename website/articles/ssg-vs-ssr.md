@@ -1,6 +1,6 @@
 ---
 title: SSG vs SSR
-nav_order: 3
+nav_order: 4
 parent: Articles
 ---
 
