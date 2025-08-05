@@ -25,19 +25,19 @@
   },"4": {
     "doc": "Answers Framework",
     "title": "For HR Round:",
-    "content": "Answer every question in STAR Framework, i.e first layout the situation then the tasks you performed, then the actions you took and finally the result you got. Try to provide real life examples. Sample Interview Question: Can you describe a situation where you faced a significant challenge during the development of DeCyber(project name) and how you resolved it? . Situation: During the development of DeCyber, we encountered a challenge related to real-time data interactions and synchronization between players. The multiplayer nature of the game required seamless communication and instant updates to ensure a smooth gaming experience. Task: My task was to implement real-time data interactions using web sockets to ensure that all players could see the changes in the game state simultaneously. Action: To tackle this challenge, I decided to integrate Socket.io, a widely-used library for real-time communication in web applications. I set up a Socket.io server on the Node.js backend and established a connection between the server and the clients. This allowed us to broadcast updates whenever a player captured a country or when a new code was generated. Result: By using Socket.io, I successfully implemented real-time updates, ensuring that all players received immediate feedback on the game’s progress. This enhanced the overall gaming experience and created a sense of engagement and competition among players. ",
+    "content": "Answer every question in STAR Framework, i.e first layout the situation then the tasks you performed, then the actions you took and finally the result you got. Try to provide real life examples. Sample Interview Question: Can you describe a situation where you faced a significant challenge during the development of DeCyber(project name) and how you resolved it? . Situation: During the development of DeCyber, we encountered a challenge related to real-time data interactions and synchronization between players. The multiplayer nature of the game required seamless communication and instant updates to ensure a smooth gaming experience. Task: My task was to implement real-time data interactions using web sockets to ensure that all players could see the changes in the game state simultaneously. Action: To tackle this challenge, I decided to integrate Socket.io, a widely-used library for real-time communication in web applications. I set up a Socket.io server on the Node.js backend and established a connection between the server and the clients. This allowed us to broadcast updates whenever a player captured a country or when a new code was generated. Result: By using Socket.io, I successfully implemented real-time updates, ensuring that all players received immediate feedback on the game’s progress. This enhanced the overall gaming experience and created a sense of engagement and competition among players. In the last you can also share your learnings. (Optional) . ",
     "url": "/learning-notes/posts/answers-framework/#for-hr-round",
     "relUrl": "/posts/answers-framework/#for-hr-round"
   },"5": {
     "doc": "Answers Framework",
     "title": "For Coding Round:",
-    "content": "Coming… . ",
+    "content": "Steps: . | Read question loud | Explain 1 example loud | Can you tell me what to return if this edge case occurs? (or any other question) | Brute force (explain T.C and S.C) | More optimal (explain T.C and S.C) | Most optimal (explain T.C and S.C) | Code only the most optimal solution | . ",
     "url": "/learning-notes/posts/answers-framework/#for-coding-round",
     "relUrl": "/posts/answers-framework/#for-coding-round"
   },"6": {
     "doc": "Answers Framework",
     "title": "For System Design Round:",
-    "content": "Coming… . ",
+    "content": "Steps: . | Use case diagram - Jot down all the actors, and their activities. This helps in storing all the requirements at one place with clear roles of everyone. | Class Diagram - Writing down all the data members and functions of each object. It also helps in establishing relationships among objects. | Discussing the design pattern - for eg. if we need only 1 instance of ‘system’ then we will be using singleton desing pattern. | Coding - code the class diagram as it is | . Think ‘system’ as the backend and it’s functions as exposed api’s, and customer as the client side or the frontend for simplicity . Machine Coding Round - you have to run the code, but in LLD Round - you have to just write the pseudo code . To solve concurrency problem - use make functions boolean . To solve race conditions - use locking machenism to synchronize (senior sde interview question) . ",
     "url": "/learning-notes/posts/answers-framework/#for-system-design-round",
     "relUrl": "/posts/answers-framework/#for-system-design-round"
   },"7": {
@@ -53,150 +53,192 @@
     "url": "/learning-notes/articles/",
     "relUrl": "/articles/"
   },"9": {
+    "doc": "Big O",
+    "title": "Big O",
+    "content": ". | Big O tells how much slower a code gets as the input increases. | There are best, average, and worst cases for a specific algorithm. | Also there are Big Os for time, memory, and storage efficiency. | Big O helps to understand which data structures or algorithms have better performance. | Big O shows the growth rate and not the actual speed. So it’s important to test the input data. | . ",
+    "url": "/learning-notes/posts/bigo/",
+    "relUrl": "/posts/bigo/"
+  },"10": {
+    "doc": "Clean Code",
+    "title": "Clean Code",
+    "content": " ",
+    "url": "/learning-notes/articles/clean-code/",
+    "relUrl": "/articles/clean-code/"
+  },"11": {
+    "doc": "Clean Code",
+    "title": "If you want to write clean code, then learn these 6 rules:",
+    "content": "Separation of Concerns (SOC) . | Break down a complex program into smaller units. | Each unit should focus on a specific task. | . Document Your Code (DYC) . | Write code for your future self and others. | Explain complex code sections with comments and documentation. | . Don’t Repeat Yourself (DRY) . | Don’t waste time writing the same code again. | Instead use functions, modules, and existing libraries. | . Keep It Simple, Stupid (KISS) . | Simple is hard, but better. | Readable code &gt; clever code. | . Test Driven Development (TDD) . | Write a failing test first. | Write code to make the test pass. | Then clean up the code without changing behaviour. | . You Ain’t Gonna Need It (YAGNI) . | Build only essential features. | Don’t build features you think you might need later. | . The bottom line: Leave the codebase cleaner than you found it. ",
+    "url": "/learning-notes/articles/clean-code/#if-you-want-to-write-clean-code-then-learn-these-6-rules",
+    "relUrl": "/articles/clean-code/#if-you-want-to-write-clean-code-then-learn-these-6-rules"
+  },"12": {
+    "doc": "Design Patterns",
+    "title": "Design Patterns",
+    "content": ". ",
+    "url": "/learning-notes/articles/design-patterns/",
+    "relUrl": "/articles/design-patterns/"
+  },"13": {
+    "doc": "Design Patterns",
+    "title": "Creational Patterns",
+    "content": "These patterns provide various object creation mechanisms, which increase flexibility and reuse of existing code. ",
+    "url": "/learning-notes/articles/design-patterns/#creational-patterns",
+    "relUrl": "/articles/design-patterns/#creational-patterns"
+  },"14": {
+    "doc": "Design Patterns",
+    "title": "Structural Patterns",
+    "content": "These patterns explain how to assemble objects and classes into larger structures while keeping these structures flexible and efficient. ",
+    "url": "/learning-notes/articles/design-patterns/#structural-patterns",
+    "relUrl": "/articles/design-patterns/#structural-patterns"
+  },"15": {
+    "doc": "Design Patterns",
+    "title": "Behavioral Patterns",
+    "content": "These patterns are concerned with algorithms and the assignment of responsibilities between objects. ",
+    "url": "/learning-notes/articles/design-patterns/#behavioral-patterns",
+    "relUrl": "/articles/design-patterns/#behavioral-patterns"
+  },"16": {
     "doc": "Finance",
     "title": "Finance",
     "content": " ",
     "url": "/learning-notes/finance/",
     "relUrl": "/finance/"
-  },"10": {
+  },"17": {
     "doc": "Learning Notes",
     "title": "Learning Notes",
     "content": "Here you can explore the notes I took on posts I read, talks I watch, articles I study, and papers I love – recalling them right afterward by creating short summaries – helps a lot in my learning process. Here you’ll find some of those little pieces. | Articles | Talks | Posts | Finance | Papers | . ",
     "url": "/learning-notes/",
     "relUrl": "/"
-  },"11": {
+  },"18": {
     "doc": "Performance Optimization",
     "title": "Performance Optimization",
     "content": " ",
     "url": "/learning-notes/articles/lighthouse-scores/",
     "relUrl": "/articles/lighthouse-scores/"
-  },"12": {
+  },"19": {
     "doc": "Performance Optimization",
     "title": "Lighthouse Score",
     "content": ". A Lighthouse score, is a metric generated by Google’s Lighthouse tool to assess the performance of a website. It’s a numerical value ranging from 0 to 100, with higher scores indicating better performance. Lighthouse analyzes various aspects of a webpage, including loading speed, responsiveness, and accessibility, and combines these into a single performance score. ",
     "url": "/learning-notes/articles/lighthouse-scores/#lighthouse-score",
     "relUrl": "/articles/lighthouse-scores/#lighthouse-score"
-  },"13": {
+  },"20": {
     "doc": "Performance Optimization",
     "title": "We can improve the lighthouse score of the homepage by leveraging these techniques:",
-    "content": ". | Image format optimization (.webp, SVGs, no srcset) | . | .webp is a modern image format that provides superior compression than JPEG or PNG. | SVGs are resolution-independent, perfect for logos/icons—no quality loss at any size. | srcset helps in responsive images, but if your layout doesn’t need varying sizes for different screens, it’s unnecessary. | . Reduces download size significantly → faster load → better Lighthouse Performance score. Less layout shift → better Lighthouse CLS (Cumulative Layout Shift) score. | Lazy load heavy elements (e.g., editors, demo sections) | . | Don’t load large components (like a code editor or demo section) immediately on page load. | Instead, detect when they’re near the viewport (using Intersection Observer or libraries) and load them just in time. | . Keeps initial JS payload small → faster Time to Interactive. Lighthouse prioritizes what’s above-the-fold → delays loading what’s not immediately needed. | Static Site Generation (SSG) beats Server Side Rendering (SSR) | . | SSG (Static Site Generation) = HTML is pre-rendered at build time and served instantly via CDN. | SSR (Server Side Rendering) = HTML is rendered on-the-fly on every request. | . SSG pages are lightning fast, no server processing → excellent First Contentful Paint &amp; Time to First Byte. SSR can be slower, especially under load or if backend APIs are slow. | Lazy load below-the-fold content | . | Split long pages and lazy load content that’s not visible initially, like testimonials, FAQs, or footer carousels. | . Reduces initial DOM size, initial render time, and improves Largest Contentful Paint. Improves Lighthouse Accessibility score if long DOM trees are reduced. | Code splitting | . | In React.js or Next.js, each page gets its own JS bundle. So visiting /about won’t load /contact.js. | . Keeps homepage JS bundle small → fast load → better JS execution time. Great for large websites with multiple routes. ",
+    "content": "Image format optimization (.webp, SVGs, no srcset) . | .webp is a modern image format that provides superior compression than JPEG or PNG. | SVGs are resolution-independent, perfect for logos/icons—no quality loss at any size. | srcset helps in responsive images, but if your layout doesn’t need varying sizes for different screens, it’s unnecessary. | . Reduces download size significantly → faster load → better Lighthouse Performance score. Less layout shift → better Lighthouse CLS (Cumulative Layout Shift) score. Lazy load heavy elements (e.g., editors, demo sections) . | Don’t load large components (like a code editor or demo section) immediately on page load. | Instead, detect when they’re near the viewport (using Intersection Observer or libraries) and load them just in time. | . Keeps initial JS payload small → faster Time to Interactive. Lighthouse prioritizes what’s above-the-fold → delays loading what’s not immediately needed. Static Site Generation (SSG) beats Server Side Rendering (SSR) . | SSG (Static Site Generation) = HTML is pre-rendered at build time and served instantly via CDN. | SSR (Server Side Rendering) = HTML is rendered on-the-fly on every request. | . SSG pages are lightning fast, no server processing → excellent First Contentful Paint &amp; Time to First Byte. SSR can be slower, especially under load or if backend APIs are slow. Lazy load below-the-fold content . | Split long pages and lazy load content that’s not visible initially, like testimonials, FAQs, or footer carousels. | . Reduces initial DOM size, initial render time, and improves Largest Contentful Paint. Improves Lighthouse Accessibility score if long DOM trees are reduced. Code splitting . | In React.js or Next.js, each page gets its own JS bundle. So visiting /about won’t load /contact.js. | . Keeps homepage JS bundle small → fast load → better JS execution time. Great for large websites with multiple routes. ",
     "url": "/learning-notes/articles/lighthouse-scores/#we-can-improve-the-lighthouse-score-of-the-homepage-by-leveraging-these-techniques",
     "relUrl": "/articles/lighthouse-scores/#we-can-improve-the-lighthouse-score-of-the-homepage-by-leveraging-these-techniques"
-  },"14": {
+  },"21": {
     "doc": "Papers",
     "title": "Papers",
     "content": " ",
     "url": "/learning-notes/papers/",
     "relUrl": "/papers/"
-  },"15": {
+  },"22": {
     "doc": "Posts",
     "title": "Posts",
     "content": " ",
     "url": "/learning-notes/posts/",
     "relUrl": "/posts/"
-  },"16": {
+  },"23": {
     "doc": "Projects",
     "title": "Projects",
-    "content": "Ok, so here we are with the most important post of the century (for freshers obviously :)) . Projects is the most important section in a freshers resume. This section doesn’t just introduce you to the recruiter but proves your worth to them. Nike says Just Do It, I say Just Show It . Here are some project ideas which I feel are cool and worth investing time on: . Simple . | TODO App | 2048 Game (Fun yeah!) | Tic Tac Toe Game | . Fundamental . | API Hub (Best Experience) | Bank Operations | Sorting Algorithm Visualiser | CPU Scheduler (OS Concepts unlocked) | Chess (OOPS Concepts unlocked) | . AI Based (use free Gemini API) . | Finance Assistant | Movie Recommendation | Resume Manager | Resume Scorer (ATS Score) | . AI Agents (Agno is a lifesaver) . | Wealth Manager | ITR Filer | Web Scraper | Job Searcher (and notify you every day) | Dummy Dataset Generator (very very helpful) | . Miscellaneous . | LLM | Overleaf MCP Server | Something CI/CD Based | Desktop App (maybe using electron) | Chrome Extensions | Own Web Browser | . Fun Fact: API Revolution came earlier and now it’s time for MCP Revolution . ",
+    "content": "Ok, so here we are with the most important post of the century (for freshers obviously :)) . Projects is the most important section in a freshers resume. This section doesn’t just introduce you to the recruiter but proves your worth to them. Nike says Just Do It, I say Just Show It . Here are some project ideas which I feel are cool and worth investing time on: . Simple . | TODO App | 2048 Game (Fun yeah!) | Tic Tac Toe Game | . Fundamental . | API Hub (Best Experience) | Bank Operations | Sorting Algorithm Visualiser | CPU Scheduler (OS Concepts unlocked) | Chess (OOPS Concepts unlocked) | . AI Based (use free Gemini API) . | Finance Assistant | Movie Recommendation | Resume Manager | Resume Scorer (ATS Score) | . AI Agents (Agno is a lifesaver) . | Wealth Manager | ITR Filer | Web Scraper | Job Searcher (and notify you every day) | Dummy Dataset Generator (very very helpful) | . Miscellaneous . | LLM | Overleaf MCP Server | Something CI/CD Based | Desktop App (maybe using electron) | Chrome Extensions | Own Web Browser | System Design, DSA, Microservices Related | . Fun Fact: API Revolution came earlier and now it’s time for MCP Revolution . ",
     "url": "/learning-notes/posts/projects/",
     "relUrl": "/posts/projects/"
-  },"17": {
+  },"24": {
     "doc": "RAG",
     "title": "RAG",
     "content": "RAG is Retrieval Augmented Generation . RAG is an innovative approach in the field of NLP that combines the strength of 2 models i.e retrieval based model and generation based model to enhance the quality of generated text. Eg. You give prompt to say ChatGPT and it gives you response. That response is generated by a model using context from the information retrieved by another model. ",
     "url": "/learning-notes/articles/rag/",
     "relUrl": "/articles/rag/"
-  },"18": {
+  },"25": {
     "doc": "RAG",
     "title": "Why is RAG important?",
     "content": "Always remember a new approach comes only when there is a limitation. There is a limitation with the traditional LLM’s. They generate response based solely on the data it is trained on. But for the response we may need current information as well as some specific details required for certain tasks. RAG addresses this limitation by incorporating a retrieval mechanism that allow the model to access external databases or documents in real-time. Eg. A financial model may be trained on last 52 weeks stocks data but to provide accurate response it is necessary for it know the current stock price too. ",
     "url": "/learning-notes/articles/rag/#why-is-rag-important",
     "relUrl": "/articles/rag/#why-is-rag-important"
-  },"19": {
+  },"26": {
     "doc": "RAG",
     "title": "How does RAG work?",
     "content": ". Steps: . | Information retrieved from the external knowledge source. [Retrieval] | Augmenting this information(context) with the user’s query. [Augmenting] | Generating accurate and contextually relevant response using LLM. [Generation] | . ",
     "url": "/learning-notes/articles/rag/#how-does-rag-work",
     "relUrl": "/articles/rag/#how-does-rag-work"
-  },"20": {
+  },"27": {
     "doc": "RAG",
     "title": "What problems does RAG solve?",
     "content": ". | Factual Inaccuracies and Hallucinations | Outdated Information | Contextual Relevance | Domain-specific knowledge | Cost and Efficiency - Fine-tuning large models for specific tasks is expensive. RAG eliminates the need for retraining by dynamically retrieving relevant data, reducing costs and computational load. | Scalability across domains - RAG is adaptable to diverse industries, from healthcare to finance, without extensive retraining, making it highly scalable | . ",
     "url": "/learning-notes/articles/rag/#what-problems-does-rag-solve",
     "relUrl": "/articles/rag/#what-problems-does-rag-solve"
-  },"21": {
+  },"28": {
     "doc": "RAG",
     "title": "Challenges",
     "content": ". | Complexity: Combining retrieval and generation adds complexity to the model, requiring careful tuning and optimization to ensure both components work seamlessly together. | Latency: The retrieval step can introduce latency, making it challenging to deploy RAG models in real-time applications. | Quality of Retrieval: The overall performance of RAG heavily depends on the quality of the retrieved documents. Poor retrieval can lead to suboptimal generation, undermining the model’s effectiveness. | Bias and Fairness: Like other AI models, RAG can inherit biases present in the training data or retrieved documents, necessitating ongoing efforts to ensure fairness and mitigate biases. | . ",
     "url": "/learning-notes/articles/rag/#challenges",
     "relUrl": "/articles/rag/#challenges"
-  },"22": {
+  },"29": {
     "doc": "Resume",
     "title": "Resume Guide",
     "content": "Resume… no introduction needed. So let’s get started. Keep one thing in mind, we make resumes for machines not for humans :) . ",
     "url": "/learning-notes/posts/resume/#resume-guide",
     "relUrl": "/posts/resume/#resume-guide"
-  },"23": {
+  },"30": {
     "doc": "Resume",
     "title": "Keypoints to remember",
     "content": ". | Never make resume on Canva. It’s not ATS friendly. Always use word or overleaf(or any LaTex editor). | Try to include numbers in every line. It increases ATS score. | Bullet points should be small and plenty enough to not make your resume short or lengthy. | Always start bullet points with strong action verbs. | Highlight important points. | No spelling mistakes please. | Always provide links, it acts as a proof. | It should be of 1 page for freshers, and of 2 pages for experienced. | . ",
     "url": "/learning-notes/posts/resume/#keypoints-to-remember",
     "relUrl": "/posts/resume/#keypoints-to-remember"
-  },"24": {
+  },"31": {
     "doc": "Resume",
     "title": "Where to make one ?",
     "content": "Overleaf is your friend in this case. There are plenty of templates available over there. But my favourite ones are: . | Template 1 | Template 2 | . ",
     "url": "/learning-notes/posts/resume/#where-to-make-one-",
     "relUrl": "/posts/resume/#where-to-make-one-"
-  },"25": {
+  },"32": {
     "doc": "Resume",
     "title": "Some action verbs for reference :",
     "content": ". Resume Worded - Here you can check your ATS Score. Site . ",
     "url": "/learning-notes/posts/resume/#some-action-verbs-for-reference-",
     "relUrl": "/posts/resume/#some-action-verbs-for-reference-"
-  },"26": {
+  },"33": {
     "doc": "Resume",
     "title": "Resume",
     "content": " ",
     "url": "/learning-notes/posts/resume/",
     "relUrl": "/posts/resume/"
-  },"27": {
+  },"34": {
     "doc": "SSG vs SSR",
     "title": "SSG vs SSR",
     "content": "Frameworks like Next.js or Astro allow: . | SSG(Static Site Generation) -&gt; looks dynamic at built time but is actually static | SSR(Server Side Rendering) -&gt; runs backend on every request | . With SSG, you can build dynamic-looking websites that can be hosted on static platforms like Github Pages or Vercel. Dynamic Behaviour can be simulated by: . | Fetching data from public API’s using JS in the browser | Building the site using SSG tools like Next.js/Eleventy and deploying the prebuilt version. | . ",
     "url": "/learning-notes/articles/ssg-vs-ssr/",
     "relUrl": "/articles/ssg-vs-ssr/"
-  },"28": {
+  },"35": {
     "doc": "Static Vs Dynamic Website",
     "title": "Static Vs Dynamic Website",
     "content": "Website has its types too! . Static - “Jo Change na ho” and Dynamic - “Jo change ho”. Simple! . ",
     "url": "/learning-notes/articles/static-vs-dynamic/",
     "relUrl": "/articles/static-vs-dynamic/"
-  },"29": {
+  },"36": {
     "doc": "Static Vs Dynamic Website",
     "title": "1. Static Website",
     "content": ". | A static website is made up of fixed resources i.e fixed html, css and js files. | No backend code is run whenever a user visits. Content changes only when you redeploy after changing files. | It can be hosted on Github Pages, Netlify, Vercel(with SSG), etc. | It is fast, secure (no server logic required), and low cost. | Eg. Portfolio, blog, landing page | . ",
     "url": "/learning-notes/articles/static-vs-dynamic/#1-static-website",
     "relUrl": "/articles/static-vs-dynamic/#1-static-website"
-  },"30": {
+  },"37": {
     "doc": "Static Vs Dynamic Website",
     "title": "2. Dynamic Website",
     "content": ". | A dynamic website generates content on the fly based on user input, authentication, database content, etc. Hence, different users may see different data. | HTML is generated per request, often using templates. (Eg. when you build website using React Js) | It needs a server and database. | Slower than static (due to runtime processing). | Eg. Facebook, Twitter, Dashboards | . ",
     "url": "/learning-notes/articles/static-vs-dynamic/#2-dynamic-website",
     "relUrl": "/articles/static-vs-dynamic/#2-dynamic-website"
-  },"31": {
+  },"38": {
     "doc": "Talks",
     "title": "Talks",
     "content": " ",
     "url": "/learning-notes/talks/",
     "relUrl": "/talks/"
-  },"32": {
+  },"39": {
     "doc": "Tradeoff",
     "title": "Tradeoffs",
     "content": "Optimization is a zero-sum game. When designing systems or writing code, you’re always making trade-offs. You’re balancing space vs. time complexity in algorithms, read vs. write latency when configuring databases, CPU vs. memory usage in runtime environments, and so on. If you think something is a pure win-win, look deeper because you are probably trading off something - performance, simplicity, scalability, or maintainability. This might look tricky at first, but over time, you will become good at spotting these and making good design and implementation decisions. Engineering is all about choosing the right ones for the problem at hand. Remember, you get some, you lose some. Kuch paane ke liye kuch khona padta hai . ",
     "url": "/learning-notes/posts/tradeoffs/#tradeoffs",
     "relUrl": "/posts/tradeoffs/#tradeoffs"
-  },"33": {
+  },"40": {
     "doc": "Tradeoff",
     "title": "Tradeoff",
     "content": " ",
