@@ -54,4 +54,17 @@ Steps:
 7. Code only the most optimal solution
 
 ## For System Design Round: 
-Coming...
+
+Steps:
+1. Use case diagram - Jot down all the actors, and their activities. This helps in storing all the requirements at one place with clear roles of everyone. 
+2. Class Diagram - Writing down all the data members and functions of each object. It also helps in establishing relationships among objects. 
+3. Discussing the design pattern - for eg. if we need only 1 instance of 'system' then we will be using singleton desing pattern.
+4. Coding - code the class diagram as it is
+
+> Think 'system' as the backend and it's functions as exposed api's, and customer as the client side or the frontend for simplicity
+
+> Machine Coding Round - you have to run the code, but in LLD Round - you have to just write the pseudo code
+
+> To solve concurrency problem - use make functions boolean
+
+> To solve race conditions - use locking machenism to synchronize (senior sde interview question)
