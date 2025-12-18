@@ -24,7 +24,7 @@ Indexes AS (
            i.type_desc,
            i.is_primary_key,
            i.is_unique,
-           STRING_AGG(COL_NAME(ic.object_id, ic.column_id), ',') WITHIN GROUP (ORDER BY ic.key_ordinal) AS index_columns
+           STRING_AGG(COL_NAME(ic.object_id, ic.column_id), ',') AS index_columns
     FROM sys.indexes i
     JOIN sys.index_columns ic
       ON ic.object_id = i.object_id AND ic.index_id = i.index_id
@@ -36,8 +36,8 @@ ForeignKeys AS (
     SELECT fk.parent_object_id AS object_id,
            fk.name AS fk_name,
            OBJECT_NAME(fk.referenced_object_id) AS referenced_table,
-           STRING_AGG(pc.name, ',') WITHIN GROUP (ORDER BY pc.column_id) AS parent_columns,
-           STRING_AGG(rc.name, ',') WITHIN GROUP (ORDER BY rc.column_id) AS referenced_columns
+           STRING_AGG(pc.name, ',') AS parent_columns,
+           STRING_AGG(rc.name, ',') AS referenced_columns
     FROM sys.foreign_keys fk
     JOIN sys.foreign_key_columns fkc
       ON fkc.constraint_object_id = fk.object_id
